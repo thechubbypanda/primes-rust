@@ -1,2 +1,2 @@
-# primes-rust
+# rust-primes
 Sieve of Eratosthenes in Rust
