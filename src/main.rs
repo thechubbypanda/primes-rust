@@ -16,7 +16,9 @@ fn main() {
 		}
 	}
 
-	let time = SystemTime::now().duration_since(start).unwrap();
+	let time = SystemTime::now()
+		.duration_since(start)
+		.unwrap();
 
 	// Print primes if "print" arg passed
 	let args: Vec<String> = env::args().collect();
